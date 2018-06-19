@@ -1,0 +1,3 @@
+from math import pi
+n=(input("How many digits of pi do you want to see?") + 2)
+print (format(pi ,'.{}f'.format(n)))
